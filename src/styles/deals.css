@@ -1,0 +1,62 @@
+.deals {
+  padding: 24px;
+}
+
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.pipeline-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.pipeline-card h4 {
+  margin-bottom: 6px;
+}
+
+.pipeline-card .value {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.deal-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.deal-row:last-child {
+  border-bottom: none;
+}
+
+.deal-meta {
+  text-align: right;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge.negotiation {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge.proposal {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.badge.qualification {
+  background: #ecfeff;
+  color: #0e7490;
+}

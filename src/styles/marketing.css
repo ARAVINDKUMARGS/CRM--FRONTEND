@@ -1,0 +1,67 @@
+.marketing {
+  padding: 24px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.marketing-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.stat-card span {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.table-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.status.active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.completed {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.green {
+  color: #16a34a;
+}
+
+.blue {
+  color: #2563eb;
+}

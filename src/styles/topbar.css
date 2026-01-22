@@ -1,0 +1,22 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.topbar input {
+  width: 300px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.add-btn {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+}

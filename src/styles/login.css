@@ -1,0 +1,272 @@
+/* GLOBAL */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #ffffff;
+}
+* 
+{
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* LAYOUT */
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT PANEL */
+.login-left {
+  flex: 1;
+  padding: 60px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.login-left h1 {
+  margin-top: 60px;
+  font-size: 36px;
+}
+
+.login-left p {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 12px 0;
+}
+
+.testimonial {
+  margin-top: 80px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* RIGHT PANEL */
+.login-right {
+  flex: 1;
+  padding: 60px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right h2 {
+  margin-top: 90px;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+/* LOGIN TOGGLE */
+.login-toggle {
+  display: flex;
+  background: #e5e7eb;
+  border-radius: 12px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.login-toggle button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  color: #475569;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-toggle .active {
+  background: white;
+  color: #2563eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ROLES */
+.role-title {
+  margin: 15px 0 10px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.roles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.role {
+  padding: 12px;
+  border-radius: 12px;
+  background: #f1f5f9;
+  color: #0f172a;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role:hover {
+  background: #e0e7ff;
+}
+
+.role.active {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  border: none;
+}
+
+/* FORM */
+.form label {
+  font-size: 14px;
+  margin-top: 12px;
+  display: block;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.form input::placeholder {
+  color: #94a3b8;
+}
+
+/* REMEMBER + FORGOT */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remember input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.options a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* SIGN IN BUTTON */
+.signin-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.signin-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+/* DIVIDER */
+
+.divider {
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #475569;
+  font-size: 14px;
+}
+
+/* SOCIAL LOGIN */
+.social-login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.social-btn {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  background: #f8fafc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* SIGNUP LINK */
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-link span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 600;
+}

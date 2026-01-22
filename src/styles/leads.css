@@ -1,0 +1,135 @@
+.leads-page {
+  padding: 24px;
+  background: #f9fafb;
+}
+
+/* Header */
+.leads-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Stats */
+.lead-stats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.stat-card span {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.stat-card strong {
+  font-size: 20px;
+}
+
+/* Colors */
+.blue { color: #2563eb; }
+.purple { color: #7c3aed; }
+.orange { color: #f97316; }
+.green { color: #16a34a; }
+.red { color: #dc2626; }
+
+/* Filters */
+.lead-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.lead-filters input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.lead-filters button {
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Table */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.leads-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leads-table th,
+.leads-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.leads-table p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.value {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+/* Status */
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.status.new {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.status.contacted {
+  background: #ffedd5;
+  color: #9a3412;
+}
+
+.status.qualified {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* Buttons */
+.btn-outline {
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  padding: 6px 10px;
+  margin-right: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}

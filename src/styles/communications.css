@@ -1,0 +1,82 @@
+.communications-page {
+  padding: 25px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.communication-list {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.communication-card {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.communication-card:last-child {
+  border-bottom: none;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.icon.blue {
+  background: #e0e7ff;
+  color: #2563eb;
+}
+
+.icon.purple {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+
+.icon.green {
+  background: #dcfce7;
+  color: #22c55e;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.name {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 4px 0;
+}
+
+.meta {
+  font-size: 13px;
+  color: #374151;
+  display: flex;
+  gap: 15px;
+}
+
+.outcome {
+  color: #16a34a;
+}
+
+.date {
+  font-size: 13px;
+  color: #6b7280;
+}

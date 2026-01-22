@@ -1,0 +1,83 @@
+.org-page {
+  padding: 24px;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.org-header h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.org-header p {
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* CARD */
+.org-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.org-card h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* FORM GRID */
+.org-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.form-group label {
+  font-size: 13px;
+  color: #374151;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+/* SAVE BUTTON */
+.save-btn {
+  margin-top: 16px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* WORKING HOURS */
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.hours-row:last-child {
+  border-bottom: none;
+}
+
+.time {
+  color: #111827;
+  font-weight: 500;
+}
+
+.closed {
+  color: #9ca3af;
+}
